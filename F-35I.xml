@@ -1,0 +1,14 @@
+<PropertyList>
+  <sim>
+    <description>F-35-I</description>
+    <author>Mc_Patrick</author>
+    <version>1.0</version>
+    <logo>
+      <image>Aircraft/F-35I/Logo.png</image>
+      <position>
+        <x>50</x>
+        <y>50</y>
+      </position>
+    </logo>
+  </sim>
+</PropertyList>
