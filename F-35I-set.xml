@@ -3,12 +3,61 @@
 <PropertyList>
   <sim>
     <description>F-35I</description>
+
     <author>Mc_Patrick</author>
+
     <version>0.1</version>
+
     <status>alpha</status>
+
 <long-description>The F-35-I also called Adir is a heavily modified version of the Lockheed Martin F-35 stealth fighter jet. There are many firsts involving the Jewish state and the F-35 Lightning II fifth-generation fighter aircraft. Israel is the first buyer outside the fighter jet’s nine-nation co-development group.</long-description>
-    <startup>
+ 
+               <rating>
+			<FDM type="int">4</FDM>
+			<systems type="int">2</systems>
+			<cockpit type="int">2</cockpit>
+			<model type="int">5</model>
+		</rating>
+
+   <startup>
       <splash-texture>Aircraft/F-35I/Thumbnail.jpg</splash-texture>
     </startup>
+
+     <tags>
+	<tag>fighter</tag>
+	<tag>lockheed</tag>
+	<tag>fighter</tag>
+	<tag>2000s</tag>
+	<tag>glass-cockpit</tag>
+	<tag>hud</tag>
+	<tag>ifr</tag>
+	<tag>retractable-gear</tag>
+	<tag>stol</tag>
+	<tag>supersonic</tag>
+	<tag>afterburner</tag>
+	<tag>jet</tag>
+	<tag>single-engine</tag>
+</tags>
+
+
+		<systems>
+			<electrical>
+				<path>Aircraft/Generic/generic-electrical.xml</path>
+			</electrical>
+			<autopilot>
+				<path>Aircraft/F-35I/Systems/autopilot.xml</path>
+			</autopilot>
+			<refuel>
+				<type>boom</type>
+				<serviceable type="bool">true</serviceable>
+			</refuel>
+		</systems> 
+
+<virtual-cockpit archive="y">true</virtual-cockpit>
+		<allow-toggle-cockpit archive="y">true</allow-toggle-cockpit>
+
+		<model>
+			<path>Aircraft/F-35I/Models/F-35I.xml</path>
+		</model>
   </sim>
 </PropertyList>
