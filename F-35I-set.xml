@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+  <sim>
+    <description>F-35I</description>
+    <author>Mc_Patrick</author>
+    <version>0.1</version>
+long-description>The F-35-I also called Adir is a heavily modified version of the Lockheed Martin F-35 stealth fighter jet. There are many firsts involving the Jewish state and the F-35 Lightning II fifth-generation fighter aircraft. Israel is the first buyer outside the fighter jet’s nine-nation co-development group.</long-description>
+    <logo>
+      <image>Aircraft/F-35I/Logo.png</image>
+      <position>
+        <x>50</x>
+        <y>50</y>
+      </position>
+    </logo>
+  </sim>
+</PropertyList>
